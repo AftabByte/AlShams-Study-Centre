@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #248657;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jamia-logo {
+    height: 70px;
+    width: 65px;
+    background-image: url("./Icons/jamia-millia-islamia-seeklogo.png");
+    background-size: cover;
+}
+
+.shams-logo {
+    height: 70px;
+    width: 65px;
+    border-radius: 100%;
+    background-image: url("./Icons/Screenshot_20230110-232106_GBWhatsApp.png");
+    background-size: cover;
+}
+
+.navbar2 {
+    height: 75px;
+    width: 100%;
+    background-color: #248657c1;
+    margin-top: 0.75px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sem-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 40%;
+    background-color: #248657;
+    color: white;
+    border-radius: 15px;
+    margin-top: 35px;
+    transition: all 0.25s ease;
+}
+
+.box:hover {
+    transform:scale(1.15);
+}
+
+.box-heading {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.sem1-links pre {
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    margin-top: -10px;
+}
+
+/* .sem1-links a {
+    text-decoration: none;
+} */
+
+.sem1-links:hover {
+    transform: scale(1.2);
+}
+
+.sem1-links {
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #248657;
+    color: white;
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.foot p {
+    font-weight: bolder;
+}
+
+.foot a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+@media (max-width: 970px) {
+    .sem-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box {
+        width: 350px;
+    }
+    .navbar h1 {
+        transform: scale(0.5);
+    }
+    .box-content pre {
+        font-size: smaller;
+    }
+    .jamia-logo {
+        transform: scale(0);
+    }
+    .shams-logo {
+        transform: scale(0);
+    }
+    .sem1-links:hover {
+        transform: none;
+    }
+    .box:hover {
+        transform: none;
+    }
+}
+
+
+/* PYQ Pages */
+.pyq_page_box-content {
+    margin-top: 30px;
+}
+
+.pyq_page_box {
+    margin-top: 35px;
+}
+
+.pyq_page_footer {
+    margin-top: 100px;
+}
+
+
+/* Study Material Pages */
+.sm_page_box {
+    width: 700px;
+    height: 450px;
+}
+
+.sm_page_box-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.sem3_sm_links {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sem3_sm_links pre {
+    margin-top: 5px;
+}
+
+@media (max-width: 970px) {
+    .sm_page_box{
+        width: 400px;
+        height: 550px;
+    }
+}
+
+
+/* YouTube Links Page */
+.sem3_ytl_box {
+    height: 325px;
+    width: 600px;
+}
+
+@media (max-width: 970px) {
+    .sem3_ytl_box {
+        width: 400px;
+        height: 400px;
+    }
+}
