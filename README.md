@@ -4,7 +4,7 @@ Welcome to the **AlShams Study Centre** repository! This website is an open stud
 
 ## 📖 About the Project
 
-This portal was created by **Aftab** ([@aftabbyte](https://github.com/aftabbyte)) with the primary goal of supporting batchmates and upcoming M.A. English students. It serves as a central hub where students can easily access curated study materials, video playlist links, student portals, and official downloads.
+This portal was created by **Aftab** ([@AftabByte](https://github.com/aftabbyte)) with the primary goal of supporting batchmates and upcoming M.A. English students. It serves as a central hub where students can easily access curated study materials, video playlist links, student portals, and official downloads.
 
 ---
 
